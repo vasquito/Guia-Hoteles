@@ -7,15 +7,121 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <title>Hello, world!</title>
+    <title>Guia de Hoteles</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="jumbotron">
+      <h1>Guia de Hoteles</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <p>
+            <h3>Como funciona?</h3>
+            <p>Busca los hoteles de acuerdo a tu preferencia.</p>
+          </p>  
+        </div>
+        <div class="col-sm-4">
+          <p>
+            <h3>Donde puedo reservar?</h3>
+            <p>Elija la ciudad que te interese y luego realiza la reserva con tus datos.</p>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <p>
+            <h3>Como pago?</h3>
+            <p>Utiliza tu tarjeta favorita.</p>
+          </p>
+        </div> 
+      </div>
+      <hr>
 
-	<!-- Option 2: jQuery, Popper.js, and Bootstrap JS-->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-	<script scr="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <div class="d-flex flex-wrap flex-row-reverse">
+        <div class="card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h4>Hotel Barcelona</h4>
+            <p>Hotel ubicado en pleno centro de Barcelona a pocos metros de la playa</p>
+          </div>  
+          <div>
+            <button class="btn btn-info btn-reserva">Reservar</button>
+          </div>  
+        </div>
+        <div class="card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Buenos Aires</h3>
+            <p>Hotel ubicado en pleno centro</p>
+          </div>  
+          <div>
+            <button class="btn btn-info btn-reserva">Reservar</button>
+          </div>
+        </div>
+        <div class="card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Lima</h3>
+            <p>Hotel ubicado en pleno centro</p>
+          </div>  
+          <div>
+            <button class="btn btn-info btn-reserva">Reservar</button>
+          </div>
+        </div>
+        <div class="card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Rio de Janeiro</h3>
+            <p>Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
+          </div>  
+          <div>
+            <button class="btn btn-info btn-reserva">Reservar</button>
+          </div>
+        </div> 
+        <div class="card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Rio de Janeiro 1</h3>
+            <p>Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
+          </div>  
+          <div>
+            <button class="btn btn-info btn-reserva">Reservar</button>
+          </div>
+        </div> 
+        <div class="card-hotel d-flex flex-column justify-content-between">
+          <div>
+            <h3>Hotel Madrid</h3>
+            <p>Hotel ubicado en pleno centro</p>
+          </div>  
+          <div>
+            <button class="btn btn-info btn-reserva">Reservar</button>
+          </div>
+        </div> 
+      </div>
+    </div>  
+    
+    <footer>
+      <div class="row">
+        <div class="col-sm-4 d-flex flex-column">
+          <a href="http://www.facebook.com">Facebook</a>
+          <a href="http://www.twitter.com">Twitter</a>
+          <a href="http://www.instagram.com">Instagram</a>
+          <a href="http://www.google.com">Google</a>
+        </div>  
+        <div class="col-sm-4">
+          <address>
+            Cortina 878, CABA, Argentina
+            +541454545454
+            contacto@guiahoteles.com
+          </address>
+        </div>
+        <div class="col-sm-4 d-flex flex-column align-items-end">
+          <a href="">Nosotros</a>
+          <a href="">Precios</a>
+          <a href="">Terminos y Condiciones</a>
+          <a href="">Contacto</a>
+        </div>  
+      </div>
+    </footer>
   </body>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.min.js"></script>
+  <script scr="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </html>
